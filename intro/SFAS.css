@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+/* enter page */
+
+body{
+  /* position:relative;
+  min-height: 100vh;
+  width: 100%; */
+  background-color: black;
+  background-image:url(./WallpaperDog-17104261.jpg);
+  /* background-repeat: no-repeat; */
+ background-attachment: fixed;
+ background-position: center;
+  overflow: hidden;
+}
+
+img{
+  position: absolute;
+    transform:translate(-50%,-50%);
+    top:30%;
+    left:50%;
+    width:auto ;
+    height:40%;
+}
+
+.e-form{
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.enter{
+  background-image: url(./intro/off.png);
+
+
+   display: inline-block;
+   font-size: 16px;
+}
+
+.enter:hover{
+    transition: 0.5s;
+  background-image: url(./intro/on.png);
+  color: white;
+}
+
+
+.intro{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+    font-size: 1rem;
+  /* background-color: #161616; */
+  background-image:linear-gradient(black,red,transparent,red,black);
+  transition: 1s;
+}
+
+.logo-header{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  color:white;
+}
+.logo{
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+}
+
+.logo.active{
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+.logo.fade{
+  bottom: 150px;
+  opacity: 0;
+transition: ease-in-out 0.5s;
+}
