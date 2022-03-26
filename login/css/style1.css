@@ -67,7 +67,7 @@ body{
   position:relative;
   min-height: 100vh;
   width: 100%;
-  background-image: url(../assets/bg2.jpg);
+ // background-image: url(../assets/bg2.jpg);
   background-size:cover;
   overflow: scroll;
   /* backdrop-filter:brightness(70%); */
