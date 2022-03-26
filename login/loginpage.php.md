@@ -68,11 +68,7 @@ document.addEventListener(
     </script>
   </head>
   <body >
-//     <?php
-//     if(isset($_SESSION[`username`]))
-// { header("location:dashboard.php");
-// }
-//     ?>
+
     <header class="th">
       <h1 class="name">Smart Fire Alarm System</h1>
     </header>
