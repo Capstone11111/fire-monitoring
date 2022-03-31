@@ -1,4 +1,3 @@
-<?php
 
 
 <!DOCTYPE html>
@@ -10,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-
+<?php ?>
     <div class="intro">
       <h1 class="logo-header">
       <span class="logo">Wel</span><span class="logo">come</span>
@@ -30,4 +29,4 @@
 </form>
   </body>
 </html>
-?>
+
