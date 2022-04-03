@@ -1,5 +1,5 @@
 <?php
-     $link = mysqli_connect("localhost","X6awpxRRoa","jLhKLl0WRL","X6awpxRRoa");// server, user, password, database
+    $link = mysqli_connect("remotemysql.com","X6awpxRRoa","jLhKLl0WRL","X6awpxRRoa");// server, user, password, database
      ?>
      
        <?php
