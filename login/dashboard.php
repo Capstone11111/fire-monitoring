@@ -1,5 +1,5 @@
 <?php
-     $link = mysqli_connect("localhost","id17983626_capstone","GtO_P^Nm51R#9^o4","id17983626_credentials");// server, user, password, database
+     $link = mysqli_connect("localhost","X6awpxRRoa","jLhKLl0WRL","X6awpxRRoa");// server, user, password, database
      ?>
      
        <?php
