@@ -232,23 +232,23 @@
 
        <tr style="color:black">
        <td >Id:</td>
-       <td><input type="text" name ="a" placeholder="Numbers only"></td>
+       <td><input type="text" name ="a" placeholder="Numbers only" required></td>
        </tr>
 
        <tr style="color:black">
        <td>Username: </td>
-       <td><input type="text" name ="b" autocomplete="off"> </td>
+       <td><input type="text" name ="b" autocomplete="off" required> </td>
        </tr>
 
 
        <tr  style="color:black">
        <td>Password: </td>
-       <td><input type="text" name ="c" autocomplete="off"> </td>
+       <td><input type="text" name ="c" autocomplete="off" required> </td>
        </tr>
 
        <tr  style="color:black">
        <td>Code: </td>
-       <td><input type="text" name ="d" autocomplete="off"> </td>
+       <td><input type="text" name ="d" autocomplete="off" required> </td>
        </tr>
 
 
