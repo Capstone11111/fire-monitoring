@@ -166,7 +166,7 @@
         </thead>
 
     <?php
-    $query = 'SELECT * FROM `arduino` WHERE `fire` = "0" OR `gsm`> 500 ORDER BY `id` DESC';
+    $query = 'SELECT * FROM `arduino` WHERE `fire` = "0" OR `gsm`> 400 ORDER BY `id` DESC';
     $results = mysqli_query($link,$query);
     if (mysqli_num_rows($results)>=1) {
     while($result = mysqli_fetch_array($results)){
@@ -222,7 +222,7 @@
         </thead>
 
     <?php
-    $query = 'SELECT * FROM `arduino1`   WHERE `fire1` = "0" OR `gsm1`> 500 ORDER BY `id1` DESC';
+    $query = 'SELECT * FROM `arduino1`   WHERE `fire1` = "0" OR `gsm1`> 400 ORDER BY `id1` DESC';
     $results = mysqli_query($link,$query);
     if (mysqli_num_rows($results)>=1) {
     while($result = mysqli_fetch_array($results)){
@@ -277,7 +277,7 @@
         </thead>
 
     <?php
-    $query = 'SELECT * FROM `arduino2`  WHERE `fire2` = "0" OR `gsm2`> 500 ORDER BY `id2` DESC';
+    $query = 'SELECT * FROM `arduino2`  WHERE `fire2` = "0" OR `gsm2`> 400 ORDER BY `id2` DESC';
     $results = mysqli_query($link,$query);
     if (mysqli_num_rows($results)>=1) {
     while($result = mysqli_fetch_array($results)){
