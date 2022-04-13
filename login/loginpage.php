@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
-    <link rel="stylesheet" href=".css/style2.css">
+    <link rel="stylesheet" href="./css/style2.css">
     <!---we had linked our css file----->
     <script>
 var pStart = { x: 0, y: 0 };
@@ -96,7 +96,7 @@ document.addEventListener(
                     <button type='button'onclick='register()'class='toggle-btn'>Admin</button>
                 </div>
                 <form id='login' class='input-group-login' method="post" action="./connect/login.php" autocomplete="off" >
-                  <img src="./ezgif.com-gif-maker.gif" width="70" class="pic">
+                  <img src="./assets/ezgif.com-gif-maker.gif" width="70" class="pic">
 
                     <input type='text'class='input-field'placeholder='Enter Username' required >
 		    <input type='password'class='input-field'placeholder='Enter Password'id="myInput" required>
@@ -105,7 +105,7 @@ document.addEventListener(
 		 </form>
 
 		 <form id='register' class='input-group-register' method="post" action="./connect/login2.php" autocomplete="off" >
-        <img src="./ezgif.com-gif-maker (1).gif" width="70" class="pic">
+        <img src="./assets/ezgif.com-gif-maker (1).gif" width="70" class="pic">
 		     <input type='password'class='input-field'placeholder='Enter Username' required>
 		     <input type='password'class='input-field'placeholder='Enter Password' id="myInput1" required>
 		     <input type='checkbox'class='check-box' onclick="myFunctionpass1()"><span>Show Password</span>
