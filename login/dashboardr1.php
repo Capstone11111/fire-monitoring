@@ -237,7 +237,7 @@ document.addEventListener(
     $lightid=$result['id'];
     $gas=$result['gsm'];
 
-    if($lightson ==0 && $gas >=501){
+    if($lightson ==0 && $gas >=401){
          echo" <audio controls autoplay style='display:none;'>
          <source src='./assets/1641182891607-voicemaker.in-speech.mp3'  type='audio/mp3'>
         </audio>";
@@ -251,7 +251,7 @@ document.addEventListener(
       echo"<h3 align='center' style='background:linear-gradient(90deg,black,red,black);transition:0.5s ease;'>fire and gas detected!</h3> ";
 
     }
-    elseif ($gas >= 501) {
+    elseif ($gas >= 401) {
            echo" <audio controls autoplay style='display:none;'>
          <source src='./assets/1641182787103-voicemaker.in-speech.mp3'  type='audio/mp3'>
         </audio>";
@@ -301,7 +301,7 @@ document.addEventListener(
     $lightson=$result['fire1'];
     $lightid=$result['id1'];
     $gas=$result['gsm1'];
- if($lightson ==0 && $gas >=501){
+ if($lightson ==0 && $gas >=401){
          echo" <audio controls autoplay style='display:none;'>
          <source src='./assets/1641182891607-voicemaker.in-speech.mp3'  type='audio/mp3'>
         </audio>";
@@ -312,7 +312,7 @@ document.addEventListener(
         </audio>";
          echo '<script>window.location.replace("dashboard.php");</script>';
     }
-    elseif ($gas >= 501) {
+    elseif ($gas >= 401) {
            echo" <audio controls autoplay style='display:none;'>
          <source src='./assets/1641182787103-voicemaker.in-speech.mp3'  type='audio/mp3'>
         </audio>";
@@ -355,7 +355,7 @@ document.addEventListener(
     $lightson=$result['fire2'];
     $lightid=$result['id2'];
     $gas=$result['gsm2'];
- if($lightson ==0 && $gas >=501){
+ if($lightson ==0 && $gas >=401){
          echo" <audio controls autoplay style='display:none;'>
          <source src='./assets/1641182891607-voicemaker.in-speech.mp3'  type='audio/mp3'>
         </audio>";
@@ -366,7 +366,7 @@ document.addEventListener(
         </audio>";
          echo '<script>window.location.replace("dashboard.php");</script>';
     }
-    elseif ($gas >= 501) {
+    elseif ($gas >= 401) {
            echo" <audio controls autoplay style='display:none;'>
          <source src='./assets/1641182787103-voicemaker.in-speech.mp3'  type='audio/mp3'>
         </audio>";
