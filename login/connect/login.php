@@ -7,11 +7,11 @@
      }
 if(isset($_POST["btn"])){
   $err=" Incorrect Username/ password";
-$username = $_POST['username'];
-$password = $_POST['password'];
+$Username = $_POST['username'];
+$Password = $_POST['password'];
 $_SESSION["status"]=false;
 
-$query = "SELECT `username`, `password` FROM `users` WHERE BINARY `username`='$username' AND BINARY `password` ='$password'";
+$query = "SELECT `username`, `password` FROM `users` WHERE BINARY `username`='$Username' AND BINARY `password` ='$Password'";
 $result = mysqli_query($link,$query);
 $_SESSION["status"]=true;
 
