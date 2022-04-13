@@ -97,9 +97,12 @@ document.addEventListener(
                 </div>
                 <form id='login' class='input-group-login' method="post" action="./connect/login.php" autocomplete="off" >
                   <img src="./assets/ezgif.com-gif-maker.gif" width="70" class="pic">
-
-                    <input type='text'class='input-field'placeholder='Enter Username'name="username" required >
-		    <input type='password'class='input-field'placeholder='Enter Password' name="password" id="myInput" required>
+			
+		    <input class='input-field' type="text" placeholder="Enter Username" name="username" required>
+                    <input class='input-field' type="password"  placeholder="Enter Password" name="password" id="myInput"required>
+			
+<!--                     <input type='text'class='input-field'placeholder='Enter Username'name="username" required >
+		    <input type='password'class='input-field'placeholder='Enter Password' name="password" id="myInput" required> -->
 		    <input type='checkbox'class='check-box' onclick="myFunctionpass()"><span>Show Password</span>
 		    <button type='submit'class='submit-btn'>Log in</button>
 		 </form>
