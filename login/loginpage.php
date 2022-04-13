@@ -98,16 +98,16 @@ document.addEventListener(
                 <form id='login' class='input-group-login' method="post" action="./connect/login.php" autocomplete="off" >
                   <img src="./assets/ezgif.com-gif-maker.gif" width="70" class="pic">
 
-                    <input type='text'class='input-field'placeholder='Enter Username' required >
-		    <input type='password'class='input-field'placeholder='Enter Password'id="myInput" required>
+                    <input type='text'class='input-field'placeholder='Enter Username'name="username" required >
+		    <input type='password'class='input-field'placeholder='Enter Password' name="password" id="myInput" required>
 		    <input type='checkbox'class='check-box' onclick="myFunctionpass()"><span>Show Password</span>
 		    <button type='submit'class='submit-btn'>Log in</button>
 		 </form>
 
 		 <form id='register' class='input-group-register' method="post" action="./connect/login2.php" autocomplete="off" >
         <img src="./assets/ezgif.com-gif-maker (1).gif" width="70" class="pic">
-		     <input type='text'class='input-field'placeholder='Enter Username' required>
-		     <input type='password'class='input-field'placeholder='Enter Password' id="myInput1" required>
+		     <input type='text'class='input-field'placeholder='Enter Username' name="username" required>
+		     <input type='password'class='input-field'placeholder='Enter Password'  name="password" id="myInput1" required>
 		     <input type='checkbox'class='check-box' onclick="myFunctionpass1()"><span>Show Password</span>
                     <button type='submit'class='submit-btn'>Log in</button>
 	         </form>
