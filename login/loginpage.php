@@ -95,7 +95,8 @@ document.addEventListener(
                     <button type='button'onclick='login()'class='toggle-btn'>User</button>
                     <button type='button'onclick='register()'class='toggle-btn'>Admin</button>
                 </div>
-                <form id='login' class='input-group-login' method="post" action="./connect/login.php" autocomplete="off" >
+		    
+                <form id='login' class='input-group-login'  method="post" action="./connect/login.php" autocomplete="off" >
                   <img src="./assets/ezgif.com-gif-maker.gif" width="70" class="pic">
 			
 		    <input class='input-field' type="text" placeholder="Enter Username" name="username" required>
