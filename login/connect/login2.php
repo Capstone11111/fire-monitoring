@@ -16,7 +16,7 @@ $_SESSION['username'] = $username1;
 header('location:../links/y l no n i mda OOO/admindashboarddelete.php');
 
 } else{
-header('location:../admin.php');
+header('location:../loginpage.php');
 
 
 }
