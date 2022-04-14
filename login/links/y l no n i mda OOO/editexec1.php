@@ -13,7 +13,7 @@ $password = $_POST['password'];
 $query ="UPDATE `admin` SET `A_User`='$username',`A_Pass`='$password' WHERE `id`= '$id'";
 $result = mysqli_query($link,$query);
 if ($result) {
-header('location:admindashboardmod.php');
+header('location:admindashboardmod.');
 } else {
 echo "fail";
 }
