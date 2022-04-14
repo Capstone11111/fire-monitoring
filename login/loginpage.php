@@ -69,17 +69,6 @@ document.addEventListener(
                 <h1 class="name">Smart Fire Alarm System</h1>
               </header>
             </div>
-
-            <div  id="about" onclick="myFunction()"style="display:none; background:black;position:absolute;top:12.5%; left:35%;color: white;width:68vh; height:80vh;padding:30px 40px;">
-          <h1>About Us</h1>
-              <p>content</p>
-            </div>
-            <div  id="contact" onclick="myFunction1()"style="display:none; background:black;position:absolute;top:12.5%; left:35%;color: white;width:68vh; height:80vh;padding:30px 40px;">
-          <h1>Contact</h1>
-              <p>content</p>
-            </div>
-
-
             <nav>
                 <ul id='MenuItems'>
                     <li><a href='#' >About Us</a></li>
@@ -97,13 +86,9 @@ document.addEventListener(
                 </div>
 		    
                 <form id='login' class='input-group-login'  method="post" action="./connect/login.php" autocomplete="off" >
-                  <img src="./assets/ezgif.com-gif-maker.gif" width="70" class="pic">
-			
-		    <input class='input-field' type="text" placeholder="Enter Username" name="sername" required>
-                    <input class='input-field' type="password"  placeholder="Enter Password" name="assword" id="myInput"required>
-			
-<!--                     <input type='text'class='input-field'placeholder='Enter Username'name="username" required >
-		    <input type='password'class='input-field'placeholder='Enter Password' name="password" id="myInput" required> -->
+        <img src="./assets/ezgif.com-gif-maker.gif" width="70" class="pic">
+                    <input type='text'class='input-field'placeholder='Enter Username' name="username" required >
+		    <input type='password'class='input-field'placeholder='Enter Password' name="password" id="myInput" required>
 		    <input type='checkbox'class='check-box' onclick="myFunctionpass()"><span>Show Password</span>
 		    <button type='submit'class='submit-btn'>Log in</button>
 		 </form>
@@ -168,39 +153,6 @@ document.addEventListener(
     }
     </script>
 
-    <script type="text/javascript">
-    function myFunction() {
-    var x = document.getElementById("about");
-    var log= document.getElementById("form-box");
-    var y= document.getElementById("contact");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-      log.style.display="none";
-      y.style.display="none";
-    } else {
-      x.style.display = "none";
-      log.style.display="block";
-        y.style.display="none";
-
-    }
-    }
-    </script>
-
-    <script type="text/javascript">
-    function myFunction1() {
-    var x = document.getElementById("contact");
-    var log =document.getElementById("form-box");
-    var y =document.getElementById("about");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-      log.style.display="none";
-      y.style.display="none";
-    } else {
-      x.style.display = "none";
-      log.style.display="block";
-        y.style.display="none";
-    }
-    </script>
 
 </body>
 </html>
