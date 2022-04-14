@@ -65,7 +65,12 @@ nav ul li button:hover
 }
 nav ul li a:hover
 {
-    color: aqua;
+     background-image:linear-gradient(90deg,#F76868,red,orange,#FBC085);
+  -webkit-background-clip:text;
+ -webkit-text-fill-color:transparent;
+ background-size: 300%;
+ transition: background-position 1s;
+   animation: bg-animation 10s infinite;
 }
 a
 {
