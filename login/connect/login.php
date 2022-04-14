@@ -5,10 +5,10 @@
        die("there was an error connecting");
      }
 session_start();
-$username1 = $_POST['username'];
-$password1 = $_POST['password'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
-$query = "SELECT `username`, `password` FROM `users` WHERE BINARY `username`='$Username' AND BINARY `password` ='$Password'";
+$query = "SELECT `username`, `password` FROM `users` WHERE BINARY `username`='$username' AND BINARY `password` ='$password'";
 $result = mysqli_query($link,$query);
 if(mysqli_num_rows($result)== 1){
 
