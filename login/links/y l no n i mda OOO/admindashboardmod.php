@@ -145,7 +145,7 @@
 
         <tr style="color:white">
         <td></td>
-        <td><input type="submit" value ="UPDATE" onclick="return confirm('Are you sure you want to update this user?');" ></td>
+        <td><input type="submit" value ="UPDATE" onclick="return confirm('Are you sure you want to update this admin password?');" action="update.php" ></td>
 
         </tr>
 
