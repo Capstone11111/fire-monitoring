@@ -109,7 +109,7 @@
         <h2>MODIFY</h2>
         <br>
         <table >
-        <form action="editexec1.php" method="POST">
+        <form action="editexec1.php" method="post">
 
         <?php
         $query = "SELECT * FROM `admin`";
@@ -145,7 +145,7 @@
 
         <tr style="color:white">
         <td></td>
-        <td><input type="submit" value ="UPDATE" onclick="return confirm('Are you sure you want to update this admin password?');" action="update.php" ></td>
+        <td><input type="submit" value ="UPDATE" onclick="return confirm('Are you sure you want to update this admin password?');"  ></td>
 
         </tr>
 
