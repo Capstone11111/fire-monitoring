@@ -99,8 +99,8 @@ document.addEventListener(
                 <form id='login' class='input-group-login'  method="post" action="./connect/login.php" autocomplete="off" >
                   <img src="./assets/ezgif.com-gif-maker.gif" width="70" class="pic">
 			
-		    <input class='input-field' type="text" placeholder="Enter Username" name="Username" required>
-                    <input class='input-field' type="password"  placeholder="Enter Password" name="Password" id="myInput"required>
+		    <input class='input-field' type="text" placeholder="Enter Username" name="sername" required>
+                    <input class='input-field' type="password"  placeholder="Enter Password" name="assword" id="myInput"required>
 			
 <!--                     <input type='text'class='input-field'placeholder='Enter Username'name="username" required >
 		    <input type='password'class='input-field'placeholder='Enter Password' name="password" id="myInput" required> -->
