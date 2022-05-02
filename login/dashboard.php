@@ -89,7 +89,7 @@ document.addEventListener(
 
 
 
-    <meta http-equiv="refresh" content="5; dashboard.php "/> 
+    <meta http-equiv="refresh" content="3; dashboard.php "/> 
          
          
          
